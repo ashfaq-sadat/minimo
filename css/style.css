@@ -139,7 +139,7 @@ body {
 /* newsletter starts */
 .optine-form {
 	margin: 100px auto 80px auto;
-	padding: 75px 400px;
+	padding: 75px 0;
 	background-color: #efefef;
 	text-align: center;
 }
@@ -157,7 +157,7 @@ body {
 	margin: 0 auto 70px;
 }
 .optine-form div {
-	width: 75%;
+	width: 28%;
 	margin: auto;
 	border-bottom: black solid 1px;
 }
