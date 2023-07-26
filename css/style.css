@@ -46,6 +46,7 @@ body {
 }
 .menu-bar ul {
 	margin: 0;
+	text-align: right;
 }
 .menu-bar ul li {
 	display: inline-block;
@@ -77,14 +78,18 @@ body {
 /* single post stsrt */
 .container2 {
 	width: 75%;
-	margin: 100px 150px 0 150px;
+	margin: 50px auto;
+	overflow: hidden;
 }
 .tag {
-	margin-top: 30px;
+	margin: 0;
 	font-family: ubuntu;
 	font-size: 14px;
 	font-weight: 300;
 	text-transform: uppercase;
+}
+.comment {
+	margin: 50px auto 100px auto;
 }
 .post-title {
 	font-family: PlayfairDisplay;
@@ -99,13 +104,13 @@ body {
 /* +single-post end */
 /* blog-grid start */
 .row {
-	border: 1px solid;
 	overflow: hidden;
 }
 .blog-card {
 	width: 50%;
 	float: left;
 	box-sizing: border-box;
+	margin-top: 30px;
 }
 .blog-card:first-child {
 	padding-right: 30px;
@@ -121,15 +126,18 @@ body {
 	margin: auto;
 	width: 100%;
 }
+.blog-card h2 {
+	font-weight: 400;
+}
 .blog-card p:nth-child(2) {
 	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+	font-size: 14px;
 }
 /* blog-grid ends */
 
 /* newsletter starts */
 .optine-form {
+	margin: 100px auto 80px auto;
 	padding: 75px 400px;
 	background-color: #efefef;
 	text-align: center;
@@ -160,9 +168,34 @@ body {
 	cursor: pointer;
 	border: none;
 }
+
+.load-btn {
+	text-align: center;
+	margin: 150px auto;
+}
+.load-btn button {
+	width: 160px;
+	height: 60px;
+	color: #626262;
+	background-color: #fff;
+	border: 0.5px solid #efefef;
+}
+.load-btn button:hover {
+	border-color: #626262;
+}
 /* newsletter ends */
 
 /* footer  */
+.footer {
+	padding: 30px 0;
+	background-color: #efefef;
+	overflow: hidden;
+}
+.container2:last-child {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .footer-links {
 	width: 30%;
 	float: left;
@@ -177,14 +210,29 @@ body {
 .social-icons ul {
 	list-style: none;
 }
+.footer-links ul {
+	padding: 0;
+	text-align: left;
+}
+.social-icons ul {
+	text-align: right;
+	padding: 0;
+}
 
-.footer-links ul li,
-.social-icons ul li {
+.footer-links ul li {
 	display: inline-block;
 	margin-right: 23px;
+}
+.social-icons ul li {
+	display: inline-block;
+	margin-left: 23px;
+}
+.social-icons ul li :last-child {
+	margin-right: 0;
 }
 .footer-links ul li a,
 .social-icons ul li a {
 	text-decoration: none;
+	color: #626262;
 }
 /* footer  */
