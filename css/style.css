@@ -1,0 +1,190 @@
+/* font linking */
+
+@font-face {
+	src: url(../fonts/PlayfairDisplay-Regular.otf);
+	font-family: PlayfairDisplay;
+	font-weight: 400;
+}
+@font-face {
+	src: url(../fonts/Ubuntu-L.ttf);
+	font-family: ubuntu;
+	font-weight: 300;
+}
+
+body {
+	margin: 0 auto;
+	font-family: PlayfairDisplay;
+	font-weight: 400;
+	color: #b4ad9e;
+}
+
+/* header */
+.header {
+	padding: 20px 0;
+}
+.container {
+	width: 88%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 10%;
+	float: left;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo img {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+.menu-bar {
+	width: 70%;
+	float: right;
+}
+.menu-bar ul {
+	margin: 0;
+}
+.menu-bar ul li {
+	display: inline-block;
+	margin-left: 120px;
+	list-style: none;
+}
+
+.menu-bar ul li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.menu-bar ul li a {
+	font-family: PlayfairDisplay;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+}
+/* banner starts */
+.banner-img {
+	margin: 50px 0;
+}
+.banner-img img {
+	width: 100%;
+}
+/* banner ends */
+
+/* single post stsrt */
+.container2 {
+	width: 75%;
+	margin: 100px 150px 0 150px;
+}
+.tag {
+	margin-top: 30px;
+	font-family: ubuntu;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.post-title {
+	font-family: PlayfairDisplay;
+	font-weight: 400;
+	font-size: 40px;
+	color: #626262;
+}
+.post-text {
+	font-family: PlayfairDisplay;
+	font-weight: 400;
+}
+/* +single-post end */
+/* blog-grid start */
+.row {
+	border: 1px solid;
+	overflow: hidden;
+}
+.blog-card {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+.blog-card:first-child {
+	padding-right: 30px;
+}
+.blog-card:last-child {
+	padding-left: 30px;
+}
+.blog-img {
+	margin: 30px auto;
+}
+.blog-img img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+.blog-card p:nth-child(2) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* blog-grid ends */
+
+/* newsletter starts */
+.optine-form {
+	padding: 75px 400px;
+	background-color: #efefef;
+	text-align: center;
+}
+.optine-form form input {
+	width: 350px;
+	height: 40px;
+	background-color: #efefef;
+	border: none;
+
+	text-align: center;
+}
+.optine-form h2 {
+	font-size: 30px;
+	color: #333333;
+	margin: 0 auto 70px;
+}
+.optine-form div {
+	width: 75%;
+	margin: auto;
+	border-bottom: black solid 1px;
+}
+.optine-form form button {
+	width: 32px;
+	height: 17px;
+	margin: auto;
+	background: url(../img/send-icon.png) no-repeat;
+	cursor: pointer;
+	border: none;
+}
+/* newsletter ends */
+
+/* footer  */
+.footer-links {
+	width: 30%;
+	float: left;
+}
+
+.social-icons {
+	width: 30%;
+	float: right;
+}
+
+.footer-links ul,
+.social-icons ul {
+	list-style: none;
+}
+
+.footer-links ul li,
+.social-icons ul li {
+	display: inline-block;
+	margin-right: 23px;
+}
+.footer-links ul li a,
+.social-icons ul li a {
+	text-decoration: none;
+}
+/* footer  */
