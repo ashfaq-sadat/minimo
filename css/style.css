@@ -51,7 +51,7 @@ body {
 }
 .menu-bar ul li {
 	display: inline-block;
-	margin-left: 120px;
+	margin-left: 100px;
 	list-style: none;
 }
 
@@ -66,6 +66,9 @@ body {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #626262;
+}
+.toggler {
+	display: none;
 }
 /* banner starts */
 .banner-img {
@@ -144,11 +147,10 @@ body {
 	text-align: center;
 }
 .optine-form form input {
-	width: 350px;
+	width: 80%;
 	height: 40px;
 	background-color: #efefef;
 	border: none;
-
 	text-align: center;
 }
 .optine-form h2 {
